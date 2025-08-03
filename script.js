@@ -14,7 +14,6 @@ form.addEventListener ("submit" , function(e) {
     card.appendChild(picture)
 
     let img = document.createElement("img")
-    // img.setAttribute("src" , inputs[3].value )
     if(inputs[3].value === ""){
         img.setAttribute("src" , "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsCc5E-o4z6uPnn8qn_ITbrlxdJ5kdmbztmg&s")
     }else{
